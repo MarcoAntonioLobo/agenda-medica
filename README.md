@@ -73,17 +73,15 @@ A conexão é configurada via variáveis de ambiente no `docker-compose.yaml` e 
 spring.datasource.url=${SPRING_DATASOURCE_URL}
 spring.datasource.username=${SPRING_DATASOURCE_USERNAME}
 spring.datasource.password=${SPRING_DATASOURCE_PASSWORD}
-
+```
 ▶️ Como Rodar o Projeto
 Gerar o JAR (caso tenha feito mudanças no código):
-
-```bash
+```
 ./mvnw clean package -DskipTests
 ```
 Subir os containers (aplicação + banco):
 
 ```bash
-
 docker-compose up --build
 ```
 Acessar a aplicação:
@@ -91,23 +89,20 @@ Acessar a aplicação:
 Abra no navegador:
 
 ```arduino
-
 http://localhost:8080
 ```
 🛠️ Comandos Úteis
 Parar todos os containers:
 
 ```bash
-
 docker-compose down
 ```
 Ver logs da aplicação:
 
 ```bash
-
 docker logs -f agenda_app
 ```
-🎯 Próximos Passos
+## 🎯 Próximos Passos
 # Criar testes automatizados (unitários e integração)
 
 - Implementar autenticação e autorização
