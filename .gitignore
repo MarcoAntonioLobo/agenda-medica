@@ -1,0 +1,88 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Build output
+/target/
+build/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Logs
+*.log
+
+# Lombok
+lombok.config
+
+# IDEs
+.idea/
+*.iml
+out/
+.vscode/
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+
+# Environment files
+.env
+.env.*
+
+# Banco de dados local
+*.h2.db
+*.mv.db
+*.sqlite
+
+# Docker
+**/docker-compose.override.yml
+**/docker-compose*.log
+.docker/
+docker-compose.override.yml
+docker-compose*.yml.local
+*.pid
+
+# Docker volumes e imagens
+**/volume-data/
+**/tmp/
+**/.docker-volume/
+
+# Kubernetes
+*.yaml.local
+*.yml.local
+*.tmp.yaml
+*.tmp.yml
+*.backup.yaml
+*.backup.yml
+.kube/
+.kubeconfig
+
+# Node (caso use alguma parte frontend futuramente)
+node_modules/
+dist/
+build/
+
+# Test coverage
+/coverage/
+*.lcov
+
+# Outros
+*.swp
+*.bak
+*.tmp
+*.orig

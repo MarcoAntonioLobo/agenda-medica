@@ -1,0 +1,33 @@
+.
+├── Dockerfile
+├── docker-compose.yaml
+├── estrutura.txt
+├── pom.xml
+└── src
+    ├── main
+    │   ├── java
+    │   │   └── com
+    │   │       └── exemplo
+    │   │           └── agenda
+    │   │               ├── AgendaMedicaApplication.java
+    │   │               ├── controller
+    │   │               │   ├── ConsultaController.java
+    │   │               │   └── PacienteController.java
+    │   │               ├── model
+    │   │               │   ├── Consulta.java
+    │   │               │   ├── Paciente.java
+    │   │               │   └── TipoServico.java
+    │   │               ├── repository
+    │   │               │   ├── ConsultaRepository.java
+    │   │               │   ├── PacienteRepository.java
+    │   │               │   └── TipoServicoRepository.java
+    │   │               └── service
+    │   │                   ├── ConsultaService.java
+    │   │                   └── PacienteService.java
+    │   └── resources
+    │       ├── application.properties
+    │       └── data.sql
+    └── test
+        └── java
+
+14 directories, 17 files
